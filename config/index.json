@@ -1,0 +1,19 @@
+{
+    "session": "mysession.json",
+    "url": "https://shopee.co.id/Jam-Tangan-Julius-Wanita-Original-Korea-Tahan-Air-JA-496-i.416525640.7784490479",
+    "variation": [],
+    "chromedriver": "./webdriver/chromedriver.exe",
+    "options": [],
+    "autoCheckout": true,
+    "autoOrder": false,
+    "modules": [
+        "progress",
+        "inquirer",
+        "seleniumwire",
+        "progress",
+        "colorama",
+        "requests",
+        "wget"
+    ],
+    "platform": "Windows"
+}

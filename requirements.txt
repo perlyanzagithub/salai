@@ -1,0 +1,7 @@
+progress
+inquirer
+selenium-wire
+progress
+colorama
+requests
+wget
