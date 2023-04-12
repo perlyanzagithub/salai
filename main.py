@@ -8,7 +8,7 @@ if __name__ == '__main__':
     time.sleep(1)
     for i in config['modules']:
         time.sleep(0.2)
-        checkModules(i)
+        # checkModules(i)
     clearConsole()
     from lib.definitions import initProgram, checkChromeDriver, menu
     checkChromeDriver()
