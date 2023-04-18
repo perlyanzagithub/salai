@@ -77,6 +77,7 @@ def executeScript(**params):
     chromeOpts.add_argument("--window-size=1920,1080")
     chromeOpts.add_argument('ignore-certificate-errors')
     driver = webdriver.Chrome(driverPath, options=chromeOpts)
+    driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
     driver.get(url)
 
     with open(session_path, 'r') as f:
